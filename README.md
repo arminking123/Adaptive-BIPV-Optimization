@@ -26,3 +26,23 @@ This repository was cleaned, organized, and uploaded to GitHub in **2025** exclu
 ---
 
 ## 🧠 Methodolog
+The workflow implemented in this project follows:
+
+1. **Input data preparation**  
+   - Climate data (EPW / measured data)  
+   - Building orientation and geometry  
+   - PV panel characteristics  
+
+2. **Simulation of BIPV shading states**  
+   - Evaluation of shading angles  
+   - Irradiance and energy generation modeling  
+   - Integration with comfort metrics  
+
+3. **Optimization process**  
+   - Selection of multi-objective algorithm  
+   - Fitness evaluation (Energy vs Comfort)  
+   - Pareto front generation  
+
+4. **Result extraction & visualization**  
+   - Best solution identification  
+   - Multi-objective trade-off analysis
